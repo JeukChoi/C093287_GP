@@ -13,7 +13,7 @@ matplotlib.use('Agg')
 
 app = Flask(__name__)
 
-API_KEY = 'AIzaSyB2oiGQIqlahv1tR4qquveklydlG9jBXao'
+API_KEY = 'MY_KEY'
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 category_map = {
